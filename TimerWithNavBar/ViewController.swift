@@ -9,10 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var timer = NSTimer()
+    
+    @IBOutlet weak var time: UILabel!
 
+    @IBAction func start(sender: AnyObject) {
+    }
+    
+    @IBAction func stop(sender: AnyObject) {
+    }
+    
+    @IBAction func reset(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
